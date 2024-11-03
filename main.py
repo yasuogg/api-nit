@@ -29,7 +29,7 @@ async def main_page():
 
 # Global variable for the model
 model = None
-model_path = "/Users/cex/Downloads/model/saved_model"
+model_path = "./saved_model"
 
 # Load the model at startup
 @app.on_event("startup")
